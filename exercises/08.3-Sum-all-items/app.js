@@ -6,3 +6,5 @@ function sumTheElements(theArray){
 
 	return total;
 }
+
+//no lo entiendo

@@ -2,4 +2,9 @@ let names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','L
 
 //declare your function here
 
+let newArr = function filterByName(name) {
+    name.filter('am');
+
+}
+
 console.log(filterByName(names, 'am'));

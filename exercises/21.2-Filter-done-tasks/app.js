@@ -9,4 +9,14 @@ let tasks = [
 	{ label: 'Make a trip', done: false }
 ];
 
+let donetasks = tasks.filter((el)=> {return el.done = true});
+
 //your code here
+console.log(donetasks);
+
+/*let newArray = tasks.filter(function (el) {
+	return el.done = true;
+  });
+
+//your code here
+console.log(newArray);*/
